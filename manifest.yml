@@ -1,0 +1,8 @@
+applications:
+- name: pcf-env-demo
+  memory: 512M
+  # Add your name/initials to make the hostname unique if necessary
+  host: pcf-env-demo
+  domain: cfapps.io
+  path: target/pcf-env-0.0.1-SNAPSHOT.jar
+  buildpack: java_buildpack

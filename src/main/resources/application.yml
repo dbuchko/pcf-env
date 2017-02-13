@@ -1,0 +1,17 @@
+logging:
+  level:
+    io:
+      pivotal: DEBUG
+      
+management:
+  security:
+    enabled: false
+  info:
+    git:
+      mode: full
+    
+spring:
+  jpa:
+    hibernate:
+      ddl-auto: update
+      
