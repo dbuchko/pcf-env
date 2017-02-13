@@ -1,6 +1,6 @@
 applications:
 - name: pcf-env-demo
-  memory: 512M
+  memory: 768M
   # Add your name/initials to make the hostname unique if necessary
   host: pcf-env-demo
   domain: cfapps.io
